@@ -41,7 +41,7 @@ body {
 }
 
 .logo {
-    height: 40px;
+    height: 46px;
     width: auto;
 }
 
@@ -683,7 +683,7 @@ section {
 }
 
 .footer-logo {
-    height: 40px;
+    height: 46px;
     width: auto;
     margin-bottom: 1rem;
     filter: brightness(0) invert(1);
@@ -735,7 +735,7 @@ section {
     }
     
     .logo {
-        height: 32px;
+        height: 37px;
     }
     
     .btn-tenant-nav {
@@ -827,7 +827,7 @@ section {
     }
     
     .logo {
-        height: 28px;
+        height: 32px;
     }
     
     .btn-tenant-nav {
