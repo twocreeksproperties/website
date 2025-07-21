@@ -347,6 +347,14 @@ section {
     margin: 0 auto;
 }
 
+.properties-intro {
+    font-size: 1.1rem;
+    color: #6b7280;
+    max-width: 750px;
+    margin: 1rem auto 0 auto;
+    line-height: 1.7;
+}
+
 /* About Section - Loudoun County Features */
 .loudoun-features {
     display: grid;
@@ -735,12 +743,18 @@ section {
     }
     
     .logo {
-        height: 37px;
+        height: 43px;
+        align-self: flex-start;
     }
     
     .btn-tenant-nav {
         font-size: 12px;
         padding: 6px 12px;
+        align-self: flex-start;
+    }
+    
+    .nav-right {
+        align-items: flex-start;
     }
     
     .hero-content h1 {
@@ -827,17 +841,20 @@ section {
     }
     
     .logo {
-        height: 32px;
+        height: 37px;
+        align-self: flex-start;
     }
     
     .btn-tenant-nav {
         font-size: 11px;
         padding: 5px 8px;
         white-space: nowrap;
+        align-self: flex-start;
     }
     
     .nav-right {
         gap: 0.5rem;
+        align-items: flex-start;
     }
     
     .hero-content h1 {
