@@ -19,9 +19,8 @@
                     <a href="#home" class="nav-link">Home</a>
                     <a href="#about" class="nav-link">Living</a>
                     <a href="#properties" class="nav-link">Properties</a>
-                    <a href="#contact" class="nav-link">Contact</a>
                 </nav>
-                <a href="#" class="btn btn-tenant-nav">TenantCloud Portal</a>
+                <a href="https://app.tenantcloud.com/" class="btn btn-tenant-nav">TenantCloud Portal</a>
                 <button class="hamburger" id="hamburger">
                     <span></span>
                     <span></span>
@@ -33,7 +32,6 @@
             <a href="#home" class="mobile-nav-link">Home</a>
             <a href="#about" class="mobile-nav-link">Living</a>
             <a href="#properties" class="mobile-nav-link">Properties</a>
-            <a href="#contact" class="mobile-nav-link">Contact</a>
         </div>
     </header>
 
@@ -63,7 +61,7 @@
                             <img src="vineyard.jpg" alt="Vineyard at Sunset" class="feature-img">
                         </div>
                         <div class="feature-content">
-                            <h3>Wine & Vineyard Tours</h3>
+                            <h3>Wineries and Vineyards</h3>
                             <p>Loudoun is just 25 miles from DC and home to over 50 wineries offering tastings, scenic views, and farm-to-table vibes. Varietals include everything from Chardonnay and Viognier to Albariño and Nebbiolo.</p>
                         </div>
                     </div>
@@ -81,8 +79,8 @@
                             <img src="wod.jpg" alt="W&OD Trail" class="feature-img">
                         </div>
                         <div class="feature-content">
-                            <h3>Scenic Hiking & Trails</h3>
-                            <p>Outdoor lovers can enjoy the 45-mile W & OD Trail for biking, walking, and roller-skating through countryside and small towns. Nearby Appalachian and Potomac trails offer forested hikes with river views.</p>
+                            <h3>Trails and Natural Areas</h3>
+                            <p>The 45-mile W & OD Trail connects countryside and small towns, with nearby Appalachian and Potomac trails offering forested paths and river views.</p>
                         </div>
                     </div>
                     <div class="feature-card">
@@ -91,7 +89,7 @@
                         </div>
                         <div class="feature-content">
                             <h3>Historic Towns & Culture</h3>
-                            <p>Leesburg and Middleburg blend colonial charm, equestrian estates, boutique shopping, and Civil War sites. Must-sees include Morven Park, Red Fox Inn, and the Washington Museum.</p>
+                            <p>Leesburg and Middleburg blend colonial charm, equestrian estates, boutique shopping, and Civil War sites. The area features Morven Park, Red Fox Inn, and the Washington Museum.</p>
                         </div>
                     </div>
                     <div class="feature-card">
@@ -113,127 +111,15 @@
                     <h2>Available Properties</h2>
                     <p class="properties-intro">From elegant townhomes to spacious single-family residences, each property in our collection reflects our commitment to quality, location, and the refined lifestyle that defines Loudoun County living. Experience the sophistication of wine country living with world-class amenities, prestigious school districts, and seamless access to the nation's capital.</p>
                 </div>
-                <div class="properties-grid">
-                    <div class="property-card">
-                        <div class="property-images">
-                            <div class="main-image">
-                                <img src="townhome.jpg" alt="Modern Home" class="main-img">
-                                <div class="property-status">Available</div>
-                            </div>
-                            <div class="image-gallery">
-                                <button class="gallery-arrow gallery-arrow-left" onclick="scrollImages(this, 'left')">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="15,18 9,12 15,6"></polyline>
-                                    </svg>
-                                </button>
-                                <div class="gallery-container">
-                                    <div class="gallery-images">
-                                        <img src="townhome.jpg" alt="Property Image 1" class="gallery-img active" onclick="setMainImage(this)">
-                                        <img src="townhome.jpg" alt="Property Image 2" class="gallery-img" onclick="setMainImage(this)">
-                                        <img src="townhome.jpg" alt="Property Image 3" class="gallery-img" onclick="setMainImage(this)">
-                                    </div>
-                                </div>
-                                <button class="gallery-arrow gallery-arrow-right" onclick="scrollImages(this, 'right')">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="9,18 15,12 9,6"></polyline>
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="property-content">
-                            <h3 class="property-address">123 Main Street, Ashburn, VA 20147</h3>
-                            <p class="property-description">Beautiful 3-bedroom, 2.5-bathroom townhome in desirable Ashburn location. Features modern kitchen, hardwood floors, private patio, and 2-car garage. Close to schools, shopping, and Metro access.</p>
-                            <div class="property-details">
-                                <span class="detail">3 bed</span>
-                                <span class="detail">2.5 bath</span>
-                                <span class="detail">1,800 sq ft</span>
-                            </div>
-                            <div class="property-actions">
-                                <a href="#" class="btn btn-primary">View on Zillow</a>
-                                <a href="#contact" class="btn btn-outline">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
+                <div id="properties-grid" class="properties-grid">
+                    <!-- Properties will be loaded dynamically from properties.json -->
                 </div>
-                <div class="coming-soon">
-                    <div class="property-images">
-                        <div class="main-image">
-                            <img src="townhome.jpg" alt="Coming Soon Property" class="main-img">
-                            <div class="property-status">Coming Soon</div>
-                        </div>
-                        <div class="image-gallery">
-                            <button class="gallery-arrow gallery-arrow-left" onclick="scrollImages(this, 'left')">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="15,18 9,12 15,6"></polyline>
-                                </svg>
-                            </button>
-                            <div class="gallery-container">
-                                <div class="gallery-images">
-                                    <img src="townhome.jpg" alt="Coming Soon Image 1" class="gallery-img active" onclick="setMainImage(this)">
-                                    <img src="townhome.jpg" alt="Coming Soon Image 2" class="gallery-img" onclick="setMainImage(this)">
-                                    <img src="townhome.jpg" alt="Coming Soon Image 3" class="gallery-img" onclick="setMainImage(this)">
-                                </div>
-                            </div>
-                            <button class="gallery-arrow gallery-arrow-right" onclick="scrollImages(this, 'right')">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="9,18 15,12 9,6"></polyline>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="coming-soon-content">
-                        <h3>Coming Soon</h3>
-                        <p>We're always adding new properties to our portfolio. Contact us to be notified when new homes become available in your preferred area.</p>
-                    </div>
+                <div id="coming-soon-container">
+                    <!-- Coming soon properties will be loaded dynamically -->
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Contact Us</h2>
-                    <p>Ready to partner with us or learn more about our services?</p>
-                </div>
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h3>Get in Touch</h3>
-                        <div class="contact-item">
-                            <strong>Email</strong>
-                            <p>info@twocreeksproperties.com</p>
-                        </div>
-                        <div class="contact-item">
-                            <strong>Phone</strong>
-                            <p>000-000-0000</p>
-                        </div>
-                    </div>
-                    <div class="contact-form">
-                        <h3>Send a Message</h3>
-                        <form>
-                            <div class="form-group">
-                                <input type="text" placeholder="Your Name" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" placeholder="Your Email" required>
-                            </div>
-                            <div class="form-group">
-                                <select required>
-                                    <option value="">Select Interest</option>
-                                    <option value="investment">Investment Opportunities</option>
-                                    <option value="tenant">Tenant Services</option>
-                                    <option value="vendor">Vendor Services</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <textarea placeholder="Your Message" rows="4" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer class="footer">
@@ -248,7 +134,6 @@
                         <h4>Contact</h4>
                         <ul>
                             <li>info@twocreeksproperties.com</li>
-                            <li>000-000-0000</li>
                         </ul>
                     </div>
                 </div>
@@ -308,9 +193,7 @@
             const gallery = button.closest('.image-gallery');
             const galleryImages = gallery.querySelector('.gallery-images');
             const images = galleryImages.querySelectorAll('.gallery-img');
-            const propertyCard = gallery.closest('.property-card, .coming-soon');
-            const mainImg = propertyCard.querySelector('.main-img');
-            
+
             // Get current index from the gallery
             let currentIndex = 0;
             images.forEach((img, index) => {
@@ -318,26 +201,21 @@
                     currentIndex = index;
                 }
             });
-            
+
             // Calculate new index
             if (direction === 'left') {
                 currentIndex = currentIndex > 0 ? currentIndex - 1 : images.length - 1;
             } else {
                 currentIndex = currentIndex < images.length - 1 ? currentIndex + 1 : 0;
             }
-            
+
             // Update transform to slide to the correct image
             const translateX = -currentIndex * (100 / 3); // Each image is 33.333% wide
             galleryImages.style.transform = `translateX(${translateX}%)`;
-            
-            // Update main image
-            const newActiveImg = images[currentIndex];
-            mainImg.src = newActiveImg.src;
-            mainImg.alt = newActiveImg.alt;
-            
-            // Update active state
+
+            // Update active state (for visual indication only, doesn't affect main image)
             images.forEach(img => img.classList.remove('active'));
-            newActiveImg.classList.add('active');
+            images[currentIndex].classList.add('active');
         }
         
         // Initialize galleries
@@ -352,5 +230,14 @@
             });
         });
     </script>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="image-modal" onclick="closeImageModal()">
+        <span class="modal-close" onclick="closeImageModal()">&times;</span>
+        <img id="modal-image" class="modal-content" onclick="event.stopPropagation()">
+    </div>
+
+    <!-- Properties management system -->
+    <script src="properties.js"></script>
 </body>
 </html>

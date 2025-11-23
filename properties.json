@@ -1,0 +1,14 @@
+[
+  {
+    "id": "459-kornblau",
+    "location": "Historic Downtown Leesburg",
+    "address": "459 Kornblau Terrace SE, Leesburg, VA 20175",
+    "description": "This stunning Godfrey model townhome in Leesburg's desirable Crescent Place features an open-concept main level with soaring ceilings, hardwood floors, an upgraded kitchen with granite island and stainless appliances, plus a private balcony and cozy gas fireplace. The luxurious primary suite boasts tray ceilings, a versatile bump-out area, two walk-in closets, and a spa-like ensuite bathroom with dual vanities, soaking tub, and separate shower. Located steps from historic downtown Leesburg, the W&OD Trail, and countless dining and entertainment options, with easy access to major routes and a private rear-entry garage.",
+    "beds": 3,
+    "baths": 2.5,
+    "sqft": 2622,
+    "status": "coming-soon",
+    "zillowUrl": "https://www.zillow.com/",
+    "images": ["1.jpg", "2.webp", "3.webp"]
+  }
+]
